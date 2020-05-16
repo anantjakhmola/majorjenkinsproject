@@ -43,10 +43,10 @@ test_loss, test_acc = model.evaluate(X_test, y_test)
 print('Test loss', test_loss)
 print('Test accuracy', test_acc)
 
-predictions = model.predict(X_test)
-print(np.argmax(np.round(predictions[9])))
+#predictions = model.predict(X_test)
+#print(np.argmax(np.round(predictions[9])))
 
-plt.imshow(X_test[9].reshape(28, 28), cmap = plt.cm.binary)
-plt.show()
+#plt.imshow(X_test[9].reshape(28, 28), cmap = plt.cm.binary)
+#plt.show()
 
 
