@@ -47,7 +47,7 @@ def loaddata():
         test_loss, test_acc = model.evaluate(X_test, y_test)
         print('Test loss', test_loss)
         print('Test accuracy', test_acc)
-        with open('file.txt', 'a') as f:
+        with open('Output.txt', 'a') as f:
             now = datetime.now()
             dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
             print("date and time ",dt_string,file=f)	
